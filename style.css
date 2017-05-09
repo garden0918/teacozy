@@ -1,0 +1,134 @@
+html {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+.header {
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+  background-color: black;
+  top: 0px;
+}
+
+.header nav span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header nav {
+  margin-right: 5px;
+}
+
+#logo img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.content {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  display: flex;
+}
+
+.top .text {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 15px auto;
+}
+
+h4 {
+  margin: 10px auto;
+}
+
+.middle {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0px
+}
+
+.middle img{
+  height: 200px;
+  width: 300px;
+}
+
+.top-center img {
+  margin: auto 30px auto 30px;
+}
+
+.bottom-left img {
+  margin-right: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bottom {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 575px; /*instruction said 500px but that looked too small compared to the visual guideline */
+  width: 1200px;
+}
+
+.bottom h2 {
+  margin-top: 80px;
+}
+
+.locations {
+  display: inline-flex;
+}
+
+.left, .center, .right {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.center {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.locations h4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
